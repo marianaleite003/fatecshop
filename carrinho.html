@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FatecShop - Carrinho de Compras</title>
+    <link rel="stylesheet" href="carrinho.css">
+    <link rel="icon" type="image/png" href="imagens/favicon.png">
+</head>
+<body>
+    <header>
+        <img src="imagens/fatec.png" alt="Logo Fatec Garça">
+        <h1>FatecShop</h1>
+        <p class="slogan">Tudo mais barato!</p>
+    </header>
+    <nav>
+        <a href="index.html">Início</a> 
+        <a href="produtos.html">Produtos</a>
+        <a href="carrinho.html">Carrinho</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="ajuda.html">Ajuda</a>
+    </nav>
+    <main>
+        <h2>Seu Carrinho de Compras</h2>
+        <section class="carrinho">
+            <!-- Produto 1 -->
+            <div class="item-carrinho">
+                <img src="imagens/pendrive.jpg" alt="Pendrive 16 GB" class="produto-imagem">
+                <div class="info-produto">
+                    <h3>Pendrive 16 GB</h3>
+                    <p>Armazene seus arquivos com segurança.</p>
+                    <p>Quantidade: <input type="number" value="1" min="1"></p>
+                </div>
+                <div class="acoes-produto">
+                    <p class="preco">R$ 49,90</p>
+                    <button class="remover">Remover</button>
+                </div>
+            </div>
+
+            <!-- Produto 2 -->
+            <div class="item-carrinho">
+                <img src="imagens/mouse.jpg" alt="Mouse Gamer RGB" class="produto-imagem">
+                <div class="info-produto">
+                    <h3>Mouse Gamer RGB</h3>
+                    <p>Mouse com iluminação RGB e alta precisão.</p>
+                    <p>Quantidade: <input type="number" value="2" min="1"></p>
+                </div>
+                <div class="acoes-produto">
+                    <p class="preco">R$ 129,90</p>
+                    <button class="remover">Remover</button>
+                </div>
+            </div>
+
+            <!-- Resumo do Carrinho -->
+            <div class="resumo-carrinho">
+                <h3>Resumo do Pedido</h3>
+                <p>Subtotal: R$ 209,70</p>
+                <p>Frete: R$ 15,00</p>
+                <p>Total: R$ 224,70</p>
+                <button class="finalizar-compra">Finalizar Compra</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="endereço">
+            <p>Av. Pres. Vargas, 2331 - José Ribeiro, Garça - SP, 17400-000</p>
+        </div>
+        <div class="redes-sociais">
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="imagens/facebook.png" alt="Ícone do Facebook">
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="imagens/instagram.png" alt="Ícone do Instagram">
+            </a>
+            <a href="https://www.tiktok.com" target="_blank">
+                <img src="imagens/tiktok.png" alt="Ícone do TikTok">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
