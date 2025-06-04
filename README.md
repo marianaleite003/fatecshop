@@ -37,4 +37,4 @@ Arquivos CSS correspondentes a cada página incluem:
 Siga os passos abaixo para visualizar o site localmente:
 
 ```bash
-
+https://marianaleite003.github.io/fatecshop/ajuda.html
